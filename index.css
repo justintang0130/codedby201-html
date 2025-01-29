@@ -1,0 +1,21 @@
+p, ul {
+    color: red;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: gray;
+}
+
+body {
+    background: lightgray;
+}
+
+.skills {
+    padding: 11px;
+}
