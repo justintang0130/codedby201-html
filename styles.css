@@ -1,0 +1,40 @@
+.heading {
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 7px;
+}
+
+.image {
+    height: auto;
+    max-width: 20%;
+    float: right;
+    padding-right: 125px; 
+}
+
+.paragraph {
+    width: 100%;
+}
+
+.schedule {
+    border-radius: 9px;
+    border: none;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 14px;
+    margin-left: 25px;
+    margin-top: 6px;
+    transition-duration: 0.3s;
+    }
+
+    .schedule:hover {
+        background-color: white;
+        cursor: pointer;
+        border: 3px solid lightblue;
+    }
+
+    .schedule:active {
+        transition-duration: 0.1s;
+        color: blue;
+    }
