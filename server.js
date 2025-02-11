@@ -1,18 +1,18 @@
-let a = 100;
-let b = (100 + 50);
-console.log(a * b);
-
-let age = 118;
+let age = 17
 console.log(age);
 
-if (age >= 16) {
-    console.log("You can get a driver's license");
+if (age > 18) {
+    console.log("You are a college student.");
 }
 
-else {
-    console.log("You're too young to get a license");
+else if (14 < age < 18) {
+    console.log("You are a high schooler.");
 }
 
-let text ="Hello World";
-console.log(text);
+else if (age < 14) {
+    console.log("You are a middle schooler.");
+}
 
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+  }
